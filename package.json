@@ -1,0 +1,22 @@
+{
+  "name": "armotest",
+  "version": "1.0.0",
+  "description": "test app for ARMO with electron and tornado server",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d1sna/ARMOtest.git"
+  },
+  "author": "Alexandr Dis (sanyad1sna@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d1sna/ARMOtest/issues"
+  },
+  "homepage": "https://github.com/d1sna/ARMOtest#readme",
+  "dependencies": {
+    "electron": "^8.1.1"
+  }
+}
