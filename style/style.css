@@ -1,0 +1,37 @@
+body {
+    background-image: url('../img/background.jpg');
+    margin: 0;
+    font-family: 'Montserrat',
+        sans-serif;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.main__block {
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+
+    border-radius: 5px;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    background-color: rgb(209, 238, 252);
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background .1s linear,
+        color .1s linear;
+}
+
+button:hover {
+    background-color: rgb(62, 68, 88);
+    color: rgb(255, 255, 255);
+}
