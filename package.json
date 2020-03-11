@@ -4,7 +4,7 @@
   "description": "test app for ARMO with electron and tornado server",
   "main": "main.js",
   "scripts": {
-    "test": "npm install && cd ./server/ && pip install tornado && cd ..",
+    "build": "npm install && cd ./server/ && pip install tornado && cd ..",
     "start": "concurrently --kill-others \"electron .\" \"python ./server/start.py\""
   },
   "repository": {

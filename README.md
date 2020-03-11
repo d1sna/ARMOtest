@@ -2,5 +2,5 @@
 
 Test App for ARMO with using electron and tornado web server.
 
-- Initialize - **"npm test"**
+- Install - **"npm run build"**
 - Start app - **"npm start"**
