@@ -14,12 +14,8 @@ body {
 }
 
 button {
-    display: inline-block;
-    vertical-align: top;
     padding: 8px 30px;
-
     border-radius: 5px;
-
     font-size: 14px;
     font-weight: 700;
     color: rgb(0, 0, 0);
