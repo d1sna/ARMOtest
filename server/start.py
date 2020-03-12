@@ -5,7 +5,7 @@ import tornado.web
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
         response = {
-            'data': 'Congratulations! You\'ve catched data from Tornado Web Server:)'}
+            'message': 'Congratulations! This is data from Tornado Web Server:)'}
         self.write(response)
 
 

@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "build": "npm install && cd ./server/ && pip install tornado && cd ..",
-    "start": "concurrently --kill-others \"electron .\" \"python ./server/start.py\""
+    "start": "concurrently --kill-others \"electron .\" \"python ./server/start.py\" || clear"
   },
   "repository": {
     "type": "git",
